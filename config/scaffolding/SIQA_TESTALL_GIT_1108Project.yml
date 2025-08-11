@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+services:
+- serviceName: project.siqa_testall_git_1108.integrations:Call_refData
+  packages:
+  - name: SIQA_TESTALL_GIT_1108Project
+    version: "1.0"
+- serviceName: project.siqa_testall_git_1108.referencedata:refData
+  packages:
+  - name: SIQA_TESTALL_GIT_1108Project
+    version: "1.0"
